@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "use_compass_on_lodestone": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:compass"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:lodestone"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "sends_telemetry_event": false,
+    "rewards": {
+        "function": "wayfound:mechanics/use_compass_on_lodestone"
+    }
+}
