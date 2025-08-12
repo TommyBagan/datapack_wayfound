@@ -1,0 +1,10 @@
+{
+    "values": [
+        "wayfound:setup_structure_list/minecraft",
+        {
+            "id": "wayfound:setup_structure_list/dungeons_and_taverns",
+            "required": false
+        }
+    ],
+    "replace": false
+}

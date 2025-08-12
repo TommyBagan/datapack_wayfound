@@ -1,0 +1,4 @@
+# Each structure is of the format: {id:"<namespace>:<structure>",name:"<lang id>",fallback:"<enUS name>",type:"dungeon"|"trial"|"settlement"|"ruins"|"underwater"}
+data modify storage wayfound:structures list append value {id:"minecraft:village_birch",name:"structures.minecraft.village_birch",fallback:"Whitewood Village",type:"settlement"}
+data modify storage wayfound:structures list append value {id:"minecraft:village_jungle",name:"structures.minecraft.village_jungle",fallback:"Bushy Village",type:"settlement"}
+data modify storage wayfound:structures list append value {id:"minecraft:village_swamp",name:"structures.minecraft.village_swamp",fallback:"Cauldron Village",type:"dungeon"}
