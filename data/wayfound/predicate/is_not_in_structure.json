@@ -3,7 +3,7 @@
     "term": {
         "condition": "location_check",
         "predicate": {
-            "structures": "#wayfound:identifiable_structures"
+            "structures": "#wayfound_integrations:identifiable_structures"
         }
     }
 }

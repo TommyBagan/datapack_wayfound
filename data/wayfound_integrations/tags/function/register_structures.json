@@ -2,7 +2,7 @@
     "values": [
         "wayfound:setup_structure_list/minecraft",
         {
-            "id": "wayfound:setup_structure_list/dungeons_and_taverns",
+            "id": "wayfound:setup_structure_list/dnt",
             "required": false
         }
     ],
