@@ -1,0 +1,9 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "location_check",
+        "predicate": {
+            "structures": "#wayfound:identifiable_structures"
+        }
+    }
+}
