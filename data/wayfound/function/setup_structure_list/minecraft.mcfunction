@@ -3,7 +3,7 @@ function wayfound_integrations:register_structure {namespace:"minecraft",structu
 function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"desert_pyramid",name:"Desert Pyramid",type:"ruins",version:0}
 function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"end_city",name:"End City",type:"dungeon",version:0}
 function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"fortress",name:"Nether Fortress",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"jungle_pyramid",name:"Desert Pyramid",type:"ruins",version:0}
+function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"jungle_pyramid",name:"Jungle Pyramid",type:"ruins",version:0}
 function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"mansion",name:"Woodland Mansion",type:"dungeon",version:0}
 function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"monument",name:"Ocean Monument",type:"dungeon",version:0}
 function wayfound_integrations:register_structure {namespace:"minecraft",structure_id:"pillager_outpost",name:"Pillager Outpost",type:"dungeon",version:0}
