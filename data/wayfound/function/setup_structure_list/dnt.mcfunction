@@ -3,53 +3,53 @@ data modify storage wayfound:temp local.result set value 0b
 function wayfound:internal/check_if_structure_valid {id:"nova_structures:tavern_oak"}
 execute if data storage wayfound:temp {local:{result:0b}} run return fail
 
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"badlands_miner_outpost",name:"structures.nova_structures.badlands_miner_outpost",fallback:"Badlands Miner Outpost",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"bunker",name:"structures.nova_structures.bunker",fallback:"Bunker",type:"ruins",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"catacomb",name:"structures.nova_structures.catacomb",fallback:"Catacombs",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"cave_chamber_archeology_ruins",name:"structures.nova_structures.cave_chamber_archeology_ruins",fallback:"Buried Ruins",type:"ruins",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"conduit_ruin",name:"structures.nova_structures.conduit_ruin",fallback:"Conduit Ruins",type:"ruins",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"creeping_crypt",name:"structures.nova_structures.creeping_crypt",fallback:"Creeping Crypt",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"desert_ruins",name:"structures.nova_structures.desert_ruins",fallback:"Sandswept Ruins",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"end_castle",name:"structures.nova_structures.end_castle",fallback:"Ender Castle",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"end_lighthouse",name:"structures.nova_structures.end_lighthouse",fallback:"Purpur Lighthouse",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"hamlet",name:"structures.nova_structures.hamlet",fallback:"Hamlet",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"nether_keep",name:"structures.nova_structures.nether_keep",fallback:"Keep",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"nether_port",name:"structures.nova_structures.nether_port",fallback:"Port of Swine",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"illager_hideout",name:"structures.nova_structures.illager_hideout",fallback:"Illager Hideout",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"illager_manor",name:"structures.nova_structures.illager_manor",fallback:"Illager Manor",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"jungle_ruins",name:"structures.nova_structures.jungle_ruins",fallback:"Overgrown Ruins",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"lone_citadel",name:"structures.nova_structures.lone_citadel",fallback:"Lone Citadel",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"mangrove_witch_hut",name:"structures.nova_structures.mangrove_witch_hut",fallback:"Witch's Hut",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"pale_residence",name:"structures.nova_structures.pale_residence",fallback:"Pale Residence",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"piglin_donjon",name:"structures.nova_structures.piglin_donjon",fallback:"Piglin Donjon",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"piglin_outstation",name:"structures.nova_structures.piglin_outstation",fallback:"Piglin Outstation",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"ruin_town",name:"structures.nova_structures.ruin_town",fallback:"Old Ruins",type:"ruins",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_1",name:"structures.nova_structures.shrine_combat_tier_1",fallback:"Tier I Shrine",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_2",name:"structures.nova_structures.shrine_combat_tier_2",fallback:"Tier II Shrine",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_3",name:"structures.nova_structures.shrine_combat_tier_3",fallback:"Tier III Shrine",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_4",name:"structures.nova_structures.shrine_combat_tier_4",fallback:"Tier IV Shrine",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_5",name:"structures.nova_structures.shrine_combat_tier_5",fallback:"Tier V Shrine",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_6",name:"structures.nova_structures.shrine_combat_tier_6",fallback:"Tier VI Shrine",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_tower",name:"structures.nova_structures.shrine_tower",fallback:"Shrine Tower",type:"ruins",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"stray_fort",name:"structures.nova_structures.stray_fort",fallback:"Stray Fort",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"stray_outlook",name:"structures.nova_structures.stray_outlook",fallback:"Stray Outlook",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_acacia",name:"structures.nova_structures.tavern_acacia",fallback:"Orange Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_birch",name:"structures.nova_structures.tavern_birch",fallback:"Silverbirch Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_cherry",name:"structures.nova_structures.tavern_cherry",fallback:"Blossoming Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_dark_oak",name:"structures.nova_structures.tavern_dark_oak",fallback:"Fungal Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_desert",name:"structures.nova_structures.tavern_desert",fallback:"Parched Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_jungle",name:"structures.nova_structures.tavern_jungle",fallback:"Chocolate Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_mangrove",name:"structures.nova_structures.tavern_mangrove",fallback:"Redmarsh Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_oak",name:"structures.nova_structures.tavern_oak",fallback:"Old Oak Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_pale",name:"structures.nova_structures.tavern_pale",fallback:"Petrified Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_snowy",name:"structures.nova_structures.tavern_snowy",fallback:"Frosty Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_spruce",name:"structures.nova_structures.tavern_spruce",fallback:"Timber Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_swamp",name:"structures.nova_structures.tavern_swamp",fallback:"Backwater Tavern",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"toxic_lair",name:"structures.nova_structures.toxic_lair",fallback:"Toxic Lair",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"trial_dungeon",name:"structures.nova_structures.trial_dungeon",fallback:"Sunken Cells",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"trident_trial_monument",name:"structures.nova_structures.trident_trial_monument",fallback:"Trident Trial",type:"trial",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"undead_crypt",name:"structures.nova_structures.undead_crypt",fallback:"Undead Crypt",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"village_birch",name:"structures.nova_structures.village_birch",fallback:"Whitewood Village",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"village_jungle",name:"structures.nova_structures.village_jungle",fallback:"Bushy Village",type:"settlement",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"village_swamp",name:"structures.nova_structures.village_swamp",fallback:"Cauldron Village",type:"dungeon",version:0}
-function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"witch_villa",name:"structures.nova_structures.witch_villa",fallback:"Villa",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"badlands_miner_outpost",name:"Badlands Miner Outpost",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"bunker",name:"Bunker",type:"ruins",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"catacomb",name:"Catacombs",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"cave_chamber_archeology_ruins",name:"Buried Ruins",type:"ruins",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"conduit_ruin",name:"Conduit Ruins",type:"ruins",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"creeping_crypt",name:"Creeping Crypt",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"desert_ruins",name:"Sandswept Ruins",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"end_castle",name:"Ender Castle",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"end_lighthouse",name:"Purpur Lighthouse",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"hamlet",name:"Hamlet",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"nether_keep",name:"Keep",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"nether_port",name:"Port of Swine",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"illager_hideout",name:"Illager Hideout",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"illager_manor",name:"Illager Manor",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"jungle_ruins",name:"Overgrown Ruins",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"lone_citadel",name:"Lone Citadel",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"mangrove_witch_hut",name:"Witch's Hut",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"pale_residence",name:"Pale Residence",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"piglin_donjon",name:"Piglin Donjon",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"piglin_outstation",name:"Piglin Outstation",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"ruin_town",name:"Old Ruins",type:"ruins",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_1",name:"Tier I Shrine",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_2",name:"Tier II Shrine",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_3",name:"Tier III Shrine",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_4",name:"Tier IV Shrine",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_5",name:"Tier V Shrine",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_combat_tier_6",name:"Tier VI Shrine",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"shrine_tower",name:"Shrine Tower",type:"ruins",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"stray_fort",name:"Stray Fort",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"stray_outlook",name:"Stray Outlook",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_acacia",name:"Orange Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_birch",name:"Silverbirch Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_cherry",name:"Blossoming Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_dark_oak",name:"Fungal Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_desert",name:"Parched Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_jungle",name:"Chocolate Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_mangrove",name:"Redmarsh Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_oak",name:"Old Oak Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_pale",name:"Petrified Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_snowy",name:"Frosty Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_spruce",name:"Timber Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"tavern_swamp",name:"Backwater Tavern",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"toxic_lair",name:"Toxic Lair",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"trial_dungeon",name:"Sunken Cells",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"trident_trial_monument",name:"Trident Trial",type:"trial",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"undead_crypt",name:"Undead Crypt",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"village_birch",name:"Whitewood Village",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"village_jungle",name:"Bushy Village",type:"settlement",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"village_swamp",name:"Cauldron Village",type:"dungeon",version:0}
+function wayfound_integrations:register_structure {namespace:"nova_structures",structure_id:"witch_villa",name:"Villa",type:"dungeon",version:0}
