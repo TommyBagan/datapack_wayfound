@@ -4,6 +4,10 @@
         {
             "id": "wayfound:setup_structure_list/dnt",
             "required": false
+        },
+        {
+            "id": "wayfound:setup_structure_list/terralith",
+            "required": false
         }
     ],
     "replace": false

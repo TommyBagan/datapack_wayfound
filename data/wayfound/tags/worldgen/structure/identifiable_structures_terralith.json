@@ -1,0 +1,29 @@
+{
+    "values": [
+        {
+            "id": "terralith:desert_outpost",
+            "required": false
+        },
+        {
+            "id": "terralith:fortified_desert_village",
+            "required": false
+        },
+        {
+            "id": "terralith:fortified_village",
+            "required": false
+        },
+        {
+            "id": "terralith:mage_complex",
+            "required": false
+        },
+        {
+            "id": "terralith:mage_tower",
+            "required": false
+        },
+        {
+            "id": "terralith:valley_lodge",
+            "required": false
+        }
+    ],
+    "replace": true
+}

@@ -5,6 +5,10 @@
         {
             "id": "#wayfound:identifiable_structures_dnt",
             "required": false
+        },
+        {
+            "id": "#wayfound:identifiable_structures_terralith",
+            "required": false
         }
     ]
 }
