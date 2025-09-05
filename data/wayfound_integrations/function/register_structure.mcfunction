@@ -49,7 +49,6 @@ execute if data storage wayfound:temp {local:{parameters:{type:"settlement"}}} r
 execute if data storage wayfound:temp {local:{parameters:{type:"ruins"}}} run data modify storage wayfound:temp local.mapped_type set value 4
 execute if data storage wayfound:temp {local:{mapped_type:0b}} run return run function wayfound:internal/report_error {action:"loading",error:"Parameter 'type' is not set to 'dungeon','trial','settlement' or 'ruins'."}
 
-
 # Checks the structure is a valid namespace.
 data modify storage wayfound:temp local.result set value 0b
 $function wayfound:internal/check_if_structure_valid {id:"$(namespace):$(structure_id)"}
