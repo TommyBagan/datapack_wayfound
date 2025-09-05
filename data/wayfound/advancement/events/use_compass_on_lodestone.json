@@ -26,6 +26,6 @@
     },
     "sends_telemetry_event": false,
     "rewards": {
-        "function": "wayfound:mechanics/use_compass_on_lodestone"
+        "function": "wayfound:mechanics/when_use_compass_on_lodestone"
     }
 }

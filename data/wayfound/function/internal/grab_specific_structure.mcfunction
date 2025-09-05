@@ -1,0 +1,1 @@
+$data modify storage wayfound:temp local.structure set from storage wayfound:structures registry.list[$(index)]

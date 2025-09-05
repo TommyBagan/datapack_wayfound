@@ -15,11 +15,12 @@ Below are the enhancements we want to provide, in no particular order.
 
 At the core of wayfound, we want to make exploration more immersive and engaging. Here is how we would do it:
 
-- [ ] Lodestone compasses are automatically renamed to the structure the Lodestone is within.
+- [x] Lodestone compasses are automatically renamed to the structure the Lodestone is within.
+- [ ] Compasses display coordinates, clocks display the time, spyglasses show entity names/types.
 - [ ] Journey Titles that are shown to players when they enter a structure, dimension or biome.
 - [ ] Unique sounds that play when players enter certain types of structures.
 - [ ] Let players view, set and unset their waypoints with a lodestone compass.
-- [ ] Compass enchantments.
+- [ ] Compass enchantments (makes player a waypoint, warps player on use, finds nearest entity).
 - [ ] Provide a process for players to add the locations compasses point to on maps.
 
 ### Compatibility with other Datapacks
