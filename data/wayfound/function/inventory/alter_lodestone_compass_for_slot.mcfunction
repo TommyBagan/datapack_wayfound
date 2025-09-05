@@ -1,6 +1,6 @@
-# {Slot:<byte>}
+# {slot:<string>}
 # Update the copy
-$data modify storage wayfound:temp local.target set from entity @s Inventory[{Slot:$(Slot)b}].components."minecraft:lodestone_tracker".target
+$data modify storage wayfound:temp local.target set from entity @s $(slot).components."minecraft:lodestone_tracker".target
 function wayfound:modifier/copy_lodestone_tracker_component with storage wayfound:temp local
 
 # Prepare for structure checks
