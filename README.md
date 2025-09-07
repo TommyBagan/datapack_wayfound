@@ -17,7 +17,7 @@ At the core of wayfound, we want to make exploration more immersive and engaging
 
 - [x] Lodestone compasses are automatically renamed to the structure the Lodestone is within.
 - [ ] Compasses display coordinates, clocks display the time, spyglasses show entity names/types.
-- [ ] Journey Titles that are shown to players when they enter a structure, dimension or biome.
+- [x] Journey Titles that are shown to players when they enter a structure, dimension.
 - [ ] Unique sounds that play when players enter certain types of structures.
 - [ ] Let players view, set and unset their waypoints with a lodestone compass.
 - [ ] Compass enchantments (makes player a waypoint, warps player on use, finds nearest entity).
@@ -55,7 +55,7 @@ Polish in the player experience is paramount. Here's what QOL we hope to have in
 - [ ] Localisation for other languages besides english.
 - [ ] Players can configure personal settings via a Dialog UI.
 - [ ] Admins can configure global settings via a Dialog UI.
-- [ ] Change compass textures.
+- [ ] Change compass textures dependent on the lodestone they point to.
 
 ## Suggestions/Bugs
 

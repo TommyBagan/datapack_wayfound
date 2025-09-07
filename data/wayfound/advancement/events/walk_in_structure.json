@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "walk_in_structure": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "#wayfound_integrations:identifiable_structures"
+                    }
+                }
+            }
+        }
+    },
+    "sends_telemetry_event": false,
+    "rewards": {
+        "function": "wayfound:mechanics/when_walk_in_structure"
+    }
+}
